@@ -123,8 +123,11 @@ def tx_table(items):
 
 @app.route("/dashboard")
 def dashboard():
-    if require_login(): return redirect("/")
-    u=session["user"]; bal=users[u]["balance"]
+    u = session.get("user")
+    if not u or u not in users:
+        session.clear()
+        return redirect('/')
+    bal = users[u]["balance"]
     received=sum(t["amount"] for t in transactions if t["to"]==u or (t["type"]=="Received" and t["to"]=="demo"))
     sent=sum(t["amount"] for t in transactions if t["from"]==u)
     recent=tx_table(transactions[:5])
