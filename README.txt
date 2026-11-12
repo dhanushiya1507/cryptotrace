@@ -37,5 +37,4 @@ This is an educational simulation only. No real Bitcoin, wallet keys, or live bl
 
 ## Live Website
 
-[Click here to visit CryptoTrace](https://cryptotrace-ll5d.onrender.com
-)
+[Click here to visit CryptoTrace](https://cryptotrace-ll5d.onrender.com)
