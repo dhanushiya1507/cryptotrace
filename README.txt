@@ -34,3 +34,8 @@ HOST AS A WEBSITE LINK (RENDER)
 
 IMPORTANT DEMO LIMITATIONS
 This is an educational simulation only. No real Bitcoin, wallet keys, or live blockchain APIs are used. Demo data is stored in memory and may reset when the app restarts. Do not use real credentials or real funds. The prototype is not production-ready.
+
+## Live Website
+
+[Click here to visit CryptoTrace](https://cryptotrace-ll5d.onrender.com
+)
